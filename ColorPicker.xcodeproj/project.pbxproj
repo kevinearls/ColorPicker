@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C345F8092B2764FE006AF1FD /* week2 in Resources */ = {isa = PBXBuildFile; fileRef = C345F8082B2764FE006AF1FD /* week2 */; };
+		C345F80B2B2768A3006AF1FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345F80A2B2768A3006AF1FD /* Constants.swift */; };
+		C345F80D2B276A41006AF1FD /* ColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345F80C2B276A41006AF1FD /* ColorPickerSlider.swift */; };
+		C345F80F2B278092006AF1FD /* README.OLD in Resources */ = {isa = PBXBuildFile; fileRef = C345F80E2B278092006AF1FD /* README.OLD */; };
+		C345F82C2B286AE2006AF1FD /* SetColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345F82B2B286AE2006AF1FD /* SetColorButton.swift */; };
+		C345F82E2B2881B1006AF1FD /* TitleAndColorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345F82D2B2881B1006AF1FD /* TitleAndColorDisplay.swift */; };
 		C3869AE82B1C9EEC00F798DD /* ColorPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3869AE72B1C9EEC00F798DD /* ColorPickerApp.swift */; };
 		C3869AEA2B1C9EEC00F798DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3869AE92B1C9EEC00F798DD /* ContentView.swift */; };
 		C3869AEC2B1C9EED00F798DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3869AEB2B1C9EED00F798DD /* Assets.xcassets */; };
 		C3869AEF2B1C9EED00F798DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3869AEE2B1C9EED00F798DD /* Preview Assets.xcassets */; };
-		C3869AF62B1C9F5100F798DD /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3869AF52B1C9F5100F798DD /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C345F8082B2764FE006AF1FD /* week2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = week2; sourceTree = "<group>"; };
+		C345F80A2B2768A3006AF1FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C345F80C2B276A41006AF1FD /* ColorPickerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSlider.swift; sourceTree = "<group>"; };
+		C345F80E2B278092006AF1FD /* README.OLD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.OLD; path = ColorPicker/README.OLD; sourceTree = "<group>"; };
+		C345F8102B2780B8006AF1FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C345F82B2B286AE2006AF1FD /* SetColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetColorButton.swift; sourceTree = "<group>"; };
+		C345F82D2B2881B1006AF1FD /* TitleAndColorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndColorDisplay.swift; sourceTree = "<group>"; };
 		C3869AE42B1C9EEC00F798DD /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3869AE72B1C9EEC00F798DD /* ColorPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerApp.swift; sourceTree = "<group>"; };
 		C3869AE92B1C9EEC00F798DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3869AEB2B1C9EED00F798DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3869AEE2B1C9EED00F798DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C3869AF52B1C9F5100F798DD /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ColorPicker/README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,10 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C345F82F2B289DE9006AF1FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C345F82D2B2881B1006AF1FD /* TitleAndColorDisplay.swift */,
+				C345F82B2B286AE2006AF1FD /* SetColorButton.swift */,
+				C3869AE92B1C9EEC00F798DD /* ContentView.swift */,
+				C345F80C2B276A41006AF1FD /* ColorPickerSlider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C3869ADB2B1C9EEC00F798DD = {
 			isa = PBXGroup;
 			children = (
-				C3869AF52B1C9F5100F798DD /* README.txt */,
+				C345F8102B2780B8006AF1FD /* README.md */,
+				C345F80E2B278092006AF1FD /* README.OLD */,
+				C345F8082B2764FE006AF1FD /* week2 */,
 				C3869AE62B1C9EEC00F798DD /* ColorPicker */,
 				C3869AE52B1C9EEC00F798DD /* Products */,
 			);
@@ -54,9 +78,10 @@
 		C3869AE62B1C9EEC00F798DD /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				C3869AE72B1C9EEC00F798DD /* ColorPickerApp.swift */,
-				C3869AE92B1C9EEC00F798DD /* ContentView.swift */,
+				C345F82F2B289DE9006AF1FD /* Views */,
 				C3869AEB2B1C9EED00F798DD /* Assets.xcassets */,
+				C3869AE72B1C9EEC00F798DD /* ColorPickerApp.swift */,
+				C345F80A2B2768A3006AF1FD /* Constants.swift */,
 				C3869AED2B1C9EED00F798DD /* Preview Content */,
 			);
 			path = ColorPicker;
@@ -129,8 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3869AEF2B1C9EED00F798DD /* Preview Assets.xcassets in Resources */,
-				C3869AF62B1C9F5100F798DD /* README.txt in Resources */,
 				C3869AEC2B1C9EED00F798DD /* Assets.xcassets in Resources */,
+				C345F8092B2764FE006AF1FD /* week2 in Resources */,
+				C345F80F2B278092006AF1FD /* README.OLD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +169,10 @@
 			files = (
 				C3869AEA2B1C9EEC00F798DD /* ContentView.swift in Sources */,
 				C3869AE82B1C9EEC00F798DD /* ColorPickerApp.swift in Sources */,
+				C345F80D2B276A41006AF1FD /* ColorPickerSlider.swift in Sources */,
+				C345F82E2B2881B1006AF1FD /* TitleAndColorDisplay.swift in Sources */,
+				C345F80B2B2768A3006AF1FD /* Constants.swift in Sources */,
+				C345F82C2B286AE2006AF1FD /* SetColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +309,7 @@
 				DEVELOPMENT_TEAM = R348B8KBWR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Color Picker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +339,7 @@
 				DEVELOPMENT_TEAM = R348B8KBWR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Color Picker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
