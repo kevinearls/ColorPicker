@@ -14,6 +14,7 @@
 		C345F80F2B278092006AF1FD /* README.OLD in Resources */ = {isa = PBXBuildFile; fileRef = C345F80E2B278092006AF1FD /* README.OLD */; };
 		C345F82C2B286AE2006AF1FD /* SetColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345F82B2B286AE2006AF1FD /* SetColorButton.swift */; };
 		C345F82E2B2881B1006AF1FD /* TitleAndColorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C345F82D2B2881B1006AF1FD /* TitleAndColorDisplay.swift */; };
+		C352B28E2B35CF5800538571 /* week4 in Resources */ = {isa = PBXBuildFile; fileRef = C352B28D2B35CF5800538571 /* week4 */; };
 		C3869AE82B1C9EEC00F798DD /* ColorPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3869AE72B1C9EEC00F798DD /* ColorPickerApp.swift */; };
 		C3869AEA2B1C9EEC00F798DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3869AE92B1C9EEC00F798DD /* ContentView.swift */; };
 		C3869AEC2B1C9EED00F798DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3869AEB2B1C9EED00F798DD /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		C345F82B2B286AE2006AF1FD /* SetColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetColorButton.swift; sourceTree = "<group>"; };
 		C345F82D2B2881B1006AF1FD /* TitleAndColorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndColorDisplay.swift; sourceTree = "<group>"; };
 		C352B28C2B35CEE700538571 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C352B28D2B35CF5800538571 /* week4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = week4; sourceTree = "<group>"; };
 		C3869AE42B1C9EEC00F798DD /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3869AE72B1C9EEC00F798DD /* ColorPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerApp.swift; sourceTree = "<group>"; };
 		C3869AE92B1C9EEC00F798DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		C3869ADB2B1C9EEC00F798DD = {
 			isa = PBXGroup;
 			children = (
+				C352B28D2B35CF5800538571 /* week4 */,
 				C352B28C2B35CEE700538571 /* README.md */,
 				C3314DF52B2F0D16003839D6 /* week3 */,
 				C345F80E2B278092006AF1FD /* README.OLD */,
@@ -159,6 +162,7 @@
 				C3869AEF2B1C9EED00F798DD /* Preview Assets.xcassets in Resources */,
 				C3869AEC2B1C9EED00F798DD /* Assets.xcassets in Resources */,
 				C345F8092B2764FE006AF1FD /* week2 in Resources */,
+				C352B28E2B35CF5800538571 /* week4 in Resources */,
 				C3314DF62B2F0D16003839D6 /* week3 in Resources */,
 				C345F80F2B278092006AF1FD /* README.OLD in Resources */,
 			);
